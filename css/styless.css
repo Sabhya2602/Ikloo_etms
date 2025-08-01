@@ -1,0 +1,29 @@
+.hero-section {
+    background: url('./assets/time.jpg') center/cover no-repeat;
+	font-size: 40px;
+	height: 100vh;
+}
+.card1 {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+	background-color: skyblue;
+}
+.card2 {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+	background-color: yellow;
+}
+.card3 {
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+	background-color: lightgreen;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+/* Optional - Additional custom styles for about page */
+img.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
